@@ -1,0 +1,38 @@
+<extend name="Public/index" />
+<block name="css"><link rel="stylesheet" type="text/css" href="__CSS__hotshowinglist.css"></block>
+<block name="title"><title>首页</title></block>
+<block name="main">
+	<div class="ms_placeholder" style="height: 81px;"></div>
+	<div class="content">  
+    <!-- 外部大div不能带边框，否则第一个UL会乱 -->
+        <div id="hotshowing">www.movieproject.com__CSS__hotshowinglist.css
+			<div id="hslist">
+			    <p id="hsp1">2017-08-10<span id="hspspan">已更新</span></p><br>
+			    <p id="hsp2">榜单规则：将昨日国内热映的影片，按照评分从高到低排列取前10名，每天上午10点更新。
+			    相关数据来源于“影乐专业版”及“影乐电影库”。</p>
+			</div>  
+	    <!--num1-->
+	        <div id="hslist1">
+		        <ul id="hslist1ul">
+					<li id="hslist1ul_li">
+						<i><img src="__IMAGES__other/Billboard/hotshowing/numberone.jpg"></i>
+				    </li>
+					<li id="hslist1ul_img1">
+						<img src="__IMAGES__other/Billboard/AmericanBoxOffice/nannabeier2-1.png">
+					</li>
+					<li id="showitAmericaOffice" >
+						<ol id="showit">
+							<a href=""><li id="zla">安娜贝尔2：诞生</li></a>
+							<li id="zlcator">主演：艾丽西娅·维拉-贝利,米兰达·奥图,露露·威尔逊 </li>	
+							<li id="showtime">上映时间：2017-08-11(美国)</li>
+						</ol>
+					</li>
+					<div class="boxOffice">
+					   	<p class="lastWeekOffice">上周末票房:<span class="officeNumber">3504.0</span>万</p>
+					   	<p class="totalOffice">总票房:3504.0万</p>
+					</div>
+	            </ul>
+	        </div>
+       </div>   
+	</div>
+</block>

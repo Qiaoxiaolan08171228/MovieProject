@@ -1,0 +1,32 @@
+#list_pager{
+ 	width: 490px;
+ 	margin: 0 auto;
+}
+#list_pager li{
+ 	display: inline-block;
+   	margin: 0 4px;
+    line-height: 30px;
+    text-align: center;
+    color: #999;
+    border: 1px solid #d8d8d8;
+ 	}
+#page_sep{
+ 	padding: 0 12px;
+ 	}
+#list_pager a {
+    display: block;
+    padding: 0 12px;
+    color: #333;
+    font-size: 14px;
+
+}
+#list_pager a:visited{
+	background:#f00;
+}
+#list_pager li:hover{
+	border: 1px solid red;
+}
+
+#list_pager a:active{
+	background:#f00;
+}

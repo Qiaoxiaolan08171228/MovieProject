@@ -1,0 +1,267 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0}
+img{border:0;}
+ul,ol{list-style:none;}
+input{padding-top:0;padding-bottom:0;border:none;}
+a{ text-decoration: none;}
+body {font-family: Microsoft YaHei;}
+ul,ol{list-style: none;}
+a{text-decoration: none;}
+:not([.fhwrap>a]) {
+    font-family: dashicons, 'Segoe UI', 'WenQuanYi Micro Hei', 'WenQuanYi Micro Hei Mono', 'Microsoft Yahei', 'Microsoft Yahei Mono', 微软雅黑, sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border: none;
+}
+/* body {font: normal normal 12px } */
+.fhearder{
+	width: 100%;
+	min-width: 1200px;
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+}
+.fhwrap{
+	width: 1200px;
+	margin: 0 auto;
+	height: 80px;
+}
+.fhwrap>a{
+	width: 133px;
+	height: 80px;
+	float: left;
+	background:url(../images/fixation/FixationTop/logo.png) no-repeat 0; 
+	background-size: contain;
+}
+.fhwrap .fhwleft01{
+	height: 100%;
+	margin:0 8px;
+	float: left;
+	/*position: relative; */
+}
+.fhwl011{
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-width: 0 1px;
+	height: 100%
+	padding: 0 20px;
+}
+.fhwl011>div{
+	color: #333;
+	margin-top: 32px;
+	display: inline-block;
+}
+.fhwl011_caret{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top:5px solid #666;
+	border-left: 5px solid transparent;
+	border-right:5px solid transparent;
+	transition: all 0.2s ease;
+}
+.fhwleft01:hover>.fhwl011>div>span{
+	
+	transform: rotate(180deg);
+}
+.fhwleft01:hover{
+	cursor: pointer;
+}
+.fhwl_nav{
+	float: left;
+	margin-left: 40px;
+	background:#fff;
+	/*overflow: hidden;*/
+	display: inline-block;
+}
+.fhwl_nav>ul>li{
+	float: left
+}
+.fhwl_nav>ul>li>a{
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	color: #333;
+}
+.fhwr_login{
+	position: relative;
+	float: right;
+	height: 100%;
+	z-index: 1000;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+.fhwr_login>div>ul>li>a{
+
+}
+.fhwr_login>div{
+	width: 56px;
+	height: 100%;
+	padding:0 10px;
+	border:1px solid transparent;
+	border-bottom: none;
+	border-top:none; 
+}
+.fhwr_login>div>img{
+	margin-top: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.fhwr_login .fhwl011_caret{
+	position: absolute;
+	top: 39px;
+	left: 50px; 
+}
+.fhwr_login:hover{
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+}
+.fhwr_login:hover .fhwl011_caret{
+	transform: rotate(180deg);
+}
+.fhwr_login:hover div ul{
+	display: block;
+}
+.fhwr_login div ul{
+	display: none;
+	position: absolute;
+	right: -1px;
+	top: 80px;
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	width: 78px;
+	background-color: #fff;
+	color: #333;
+	line-height: 70px;
+	text-align: center;
+	font-size: 14px;
+}
+.fhwr_login div ul li a{
+	color: #999;
+	display: block;
+	overflow: hidden;
+	width: 80px;
+	text-overflow: ellipsis;
+}
+.fhwr_login{
+
+}
+.fhwr_sform{
+	float: right;
+	margin:20px 10px 0 0;
+	position: relative;
+}
+.fhwr_sform .fhwrs_search{
+	width: 260px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 1.2;
+	padding: 0px 40px 0px 20px;
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	background: #faf8fa;
+	#color: #333;
+	outline:none;
+	/*overflow: hidden;*/
+}
+.fhwr_sform .fhwrs_submit{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 220px;	
+	border-radius: 30px;
+	background: url(../images/fixation/FixationTop/search.png) #ef4238;
+}
+.fhwc_app{
+	width: 132px;
+	height: 80px;
+	margin-right: 10px;
+	position: relative;
+	float: right;
+}
+.fhwc_app>a{
+	width: 100%;
+	height: 100%;
+	padding-top: 28px;
+	padding-left: 14px;
+	display: block;
+	box-sizing: border-box;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent; 
+}
+.fhwc_app a .fhwca_phone{
+	width: 15px;
+	height: 24px;
+	display: inline-block;
+	float: left;
+	background-image: url(../images/fixation/FixationTop/phone.png);
+	background-size: cover;
+}
+.fhwc_app a .fhwca_load{
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+	color: #000;
+	margin:0 7px;
+	float: left;
+	display: inline-block;
+}
+.fhwc_app a .fhwl011_caret{
+	float: left;
+	position: relative;
+	top: 8px;
+}
+.fhwc_app:hover a .fhwl011_caret{
+	transform: rotate(180deg);
+}
+.fhwc_app:hover{
+	cursor: pointer;
+}
+.fhwc_app:hover {
+	cursor: pointer;
+	border-right: 1px solid #dcd4d7;
+	border-left:1px solid #dcd4d7;
+}
+.fhwc_app:hover a .fhwca_down{
+	display: block;
+}
+.fhwc_app a .fhwca_down{
+	display: none;
+	width: 132px;
+	height: 165px;
+	position: absolute;
+	top: 75px;
+	left: -1px;
+	background-color: #fff;
+	background-image: url(../images/fixation/FixationTop/QR_code.png);
+	background-position: 24px 14px;
+	background-size: 82px 82px;
+	border-left: 1px solid #dcd4d7;
+	border-right: 1px solid #dcd4d7;
+	border-bottom: 1px solid #dcd4d7;
+	background-repeat: no-repeat;
+}
+.fhwc_app a .fhwca_down p{
+	text-align: center;
+	font-size: 14px;
+	margin:0;
+	color: #999;
+}
+.fhwc_app a .fhwca_down .fhwcad_code{
+	margin-top: 115px;
+	margin-bottom: 3px;
+	color: #000;
+}

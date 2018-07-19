@@ -1,0 +1,164 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0}
+ img{border:0;}
+ ul,ol{list-style:none;}
+ input{padding-top:0;padding-bottom:0;border:none;}
+ a{ text-decoration: none;}
+ /* 	汉字已更新部分 */
+ #hotshowing{}
+ #hslist{padding-bottom:20px;}
+ #hslist{
+ 	width:80%;
+ 	margin: 70px 0px 50px 80px;
+	min-width:1200px;
+	text-align: center; 
+	font-size: 12px;
+   	color: #999;
+}
+ #hspspan{
+    color: #ffb400;
+    margin-left: 4px;
+ 	}
+/* 电影榜单部分 */
+/* 榜单一*/
+#hslist1{
+	width:80%;
+	min-width: 1000px;
+	margin-left: 140px;
+	height: 250px;
+	}
+ #hslist1ul>li{
+	float: left;
+	height: 223px;
+}
+#hslist1ul_li i{
+ 	margin: 95px 50px 0 50px;
+	display: inline-block;
+	background: red;
+	width: 50px;
+	height: 50px;
+	} 
+ #showit{
+ 	margin-left: 30px;
+ 	margin-top: 70px;
+ }
+ #zla{
+	font-size: 26px;
+    color: #333;
+}
+ #zlcator{
+	    margin-top: 18px;
+    	color: #333;
+       font-size: 16px;
+	}
+ #showtime{
+	 margin-top: 8px;
+    color: #999;
+    font-size: 16px;
+}
+#showitli{
+	border-bottom: 1px solid #999;
+	width: 600px;
+	height: 223px;
+	
+}
+/*  ok */
+ /* 榜单二.三*/
+	#hslist2ul_li i{
+	margin: 95px 50px 0 50px;
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    top: 85px;
+    background: #ffb400;
+    color: #fff;
+	}  
+#hslist2ul{
+	display: table;
+}
+ #hslist2ul>li{
+	float: left;
+	display: inline-block;
+} #hslist2ul_img img{
+	margin-left: 50px;
+	margin-top: 95px;
+	margin-right: 30px;
+} 
+#hslist3ul_li i{
+	margin: 95px 50px 0 50px;
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    top: 85px;
+    background: #f7f7f7;
+    color: #999;
+	} 
+	/* 评分css */
+ #pingfbig{
+	font-size: 56px;
+    font-weight: 700;
+    color: #ffb400;
+    height:200px ;
+}
+ #pingfsmall{
+ 	font-size: 26px;
+    font-weight: 700;
+    color: #ffb400;
+ }
+  #pingfen{
+ width: 60px;
+ line-height: 225px;
+ border-bottom: 1px solid #999;
+ } 
+	/* 票房 */
+#showitAmericaOffice{
+	border-bottom: 1px solid #999;
+	width: 400px;
+	height: 223px;
+}
+.boxOffice{
+	position: relative;
+	left:-110px;
+	margin: 0;
+	height: 223px;
+	padding: 0;
+	float: right;
+	width: 260px;
+	line-height: 225px;
+	border-bottom: 1px solid #999;
+	text-align: right;
+}
+.lastWeekOffice{
+width: 260px;
+height: 20px;
+color: #ef4238;
+font-size: 16px;
+}
+.officeNumber{
+	font-weight: 700;
+    font-size: 26px;
+}
+ .totalOffice{
+     margin-top: 8px;
+    color: #999;
+ }
+ /* 最受期待榜单css */
+ .newLook{
+width: 260px;
+height: 20px;
+color: #ffb400;
+font-size: 16px;
+ }
+ .lookNumber{
+ 	font-weight: 700;
+    font-size: 26px;
+ }

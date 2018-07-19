@@ -1,0 +1,215 @@
+<extend name="Public/index" />
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__CSS__movieSort.css">
+	<link rel="stylesheet" type="text/css" href="__CSS__hotshowinglist.css">
+</block>
+<block name="title"><title>热映口碑榜</title></block>
+<block name="menu">
+	<div class="ms_placeholder" style="height: 81px;"></div>
+	<div class="ms_snav">
+		<ul class="mss_navbar">
+			<li><a href="{:U('Rank/hotshowinglist')}">热映口碑榜</a></li>
+			<li><a href="{:U('Rank/TheMostAnticipatedList')}">最受期待榜</a></li>
+			<li><a href="{:U('Rank/boxOfficePoint')}">国内票房榜</a></li>
+			<li><a href="{:U('Rank/TheNorthAmericanBoxOffice')}">北美票房榜</a></li>
+			<li><a href="{:U('Rank/topOneHundredPoint')}">TOP100榜</a></li>
+		</ul>
+	</div>
+</block>
+<block name="main">
+<div id="hotshowing">
+	<div id="hslist">
+	    <p id="hsp1">2017-08-10<span id="hspspan">已更新</span></p><br>
+	    <p id="hsp2">榜单规则：将昨日国内热映的影片，按照评分从高到低排列取前10名，每天上午10点更新。相关数据来源于“影乐专业版”及“影乐电影库”。</p>
+	</div>  
+	<!--num1-->
+	<div id="hslist1">
+		<ul id="hslist1ul">
+			<li id="hslist1ul_li">
+				<i><img src="__IMAGES__other/Billboard/hotshowing/numberone.jpg"></i>
+			</li>
+			<li id="hslist1ul_img1">
+			   	<img src="__IMAGES__other/Billboard/hotshowing/zhanlang1.jpg">
+			</li>
+			<li id="showitli" >
+				<ol id="showit">
+					<a href=""><li id="zla">战狼</li></a>
+					<li id="zlcator">主演：吴京,弗兰克·格里罗,吴刚 </li>	
+					<li id="showtime">上映时间：2017-07-27</li>
+				</ol>
+			</li>
+			<li id="pingfen"><i id="pingfbig">9.</i><i id="pingfsmall">7</i></li>
+	    </ul>
+	</div>
+	<!-- num2 -->
+	<div id="hslist1">
+		<ul id="hslist1ul">
+			<li id="hslist2ul_li">
+				<i>2</i>
+			</li>
+			<li><img src="__IMAGES__other/Billboard/hotshowing/xuezhanxiangjiang2.jpg"></li>
+			<li id="showitli">
+				<ol id="showit">
+					<a href=""><li id="zla">血战湘江</li></a>
+					<li id="zlcator">主演：王霙,保剑锋,董勇</li>
+					<li id="showtime">上映时间：2017-06-30</li>
+				</ol>
+			</li>
+			<li id="pingfen"><i id="pingfbig">9.</i><i id="pingfsmall">2</i></li>
+		</ul>
+	</div>
+	<!--num3-->
+	<div id="hslist1">
+		<ul id="hslist1ul">
+			<li id="hslist2ul_li">
+				<i>3</i>
+		    </li>
+			<li><img src="__IMAGES__other/Billboard/hotshowing/shanguangshaonv3.jpg"></li>
+			<li id="showitli">
+				<ol id="showit">
+					<a href=""><li id="zla">闪光少女</li></a>
+					<li id="zlcator">主演：徐璐,彭昱畅,刘泳希</li>
+					<li id="showtime">上映时间：2017-07-20</li>
+				</ol>
+			</li>
+			<li id="pingfen"><i id="pingfbig">9.</i><i id="pingfsmall">2</i></li>
+		</ul>
+	</div>
+	<!--  num4 -->
+	<div id="hslist1">
+		<ul id="hslist1ul">
+			<li id="hslist3ul_li">
+				<i>4</i>
+			</li>
+			<li><img src="__IMAGES__other/Billboard/hotshowing/jianjundaye4.jpg"></li>
+			<li id="showitli">
+				<ol id="showit">
+					<a href=""><li id="zla">建军大业</li></a>
+					<li id="zlcator">主演：刘烨,朱亚文,黄志忠</li>
+					<li id="showtime">上映时间：2017-07-27</li>
+				</ol>
+			</li>
+			<li id="pingfen"><i id="pingfbig">9.</i><i id="pingfsmall">1</i></li>
+		</ul>
+	</div>
+	<!-- num5 -->
+	<div id="hslist1">
+		<ul id="hslist1ul">
+			<li id="hslist3ul_li">
+				<i>5</i>
+			</li>
+			<li>
+			   	<img src="__IMAGES__other/Billboard/hotshowing/woshimalibu5.png">
+			   	</li>
+			<li id="showitli">
+				<ol id="showit">
+					<a href=""><li id="zla">我是马布里</li></a>
+					<li id="zlcator">主演：史蒂芬.马布里,何冰,吴尊</li>
+					<li id="showtime">上映时间：2017-08-04</li>
+				</ol>
+			</li>
+			<li id="pingfen"><i id="pingfbig">8.</i><i id="pingfsmall">9</i></li>
+		</ul>
+	</div>
+	<!-- num6 -->
+	<div id="hslist1">
+		<ul id="hslist1ul">
+			<li id="hslist3ul_li">
+				<i>6</i>
+			</li>
+			<li>
+			   	<img src="__IMAGES__other/Billboard/hotshowing/daxianglinwang6.jpg">
+			</li>
+			<li id="showitli">
+				<ol id="showit">
+					<a href=""><li id="zla">大象林旺之一炮成名</li></a>
+					<li id="zlcator">主演：宋晓宇,李垚,徐炜</li>
+					<li id="showtime">上映时间：2017-08-04</li>
+				</ol>
+			</li>
+			<li id="pingfen"><i id="pingfbig">8.</i><i id="pingfsmall">9</i></li>
+		</ul>
+	</div> 
+	<!--  num7 -->
+	<div id="hslist1">
+		<ul id="hslist1ul">
+			<li id="hslist3ul_li">
+				<i>7</i>
+			</li>
+			<li><img src="__IMAGES__other/Billboard/hotshowing/atangqiyu7.jpg"></li>
+			<li id="showitli">
+				<ol id="showit">
+					<a href=""><li id="zla">阿唐奇遇</li></a>
+					<li id="zlcator">主演：石磊,袁泽宇,芒来</li>
+					<li id="showtime">上映时间：2017-07-21</li>
+				</ol>
+			</li>
+			<li id="pingfen"><i id="pingfbig">9.</i><i id="pingfsmall">1</i></li>
+		</ul>
+	</div> 
+	<!--  num8 -->
+	<div id="hslist1">
+		<ul id="hslist1ul">
+			<li id="hslist3ul_li">
+				<i>8</i>
+			</li>
+			<li>
+			   	<img src="__IMAGES__other/Billboard/hotshowing/shengtounaiba8.jpg">
+			</li>
+			<li id="showitli">
+				<ol id="showit">
+					<a href=""><li id="zla">神偷奶爸3</li></a>
+					<li id="zlcator">主演：史蒂夫·卡瑞尔,克里斯汀·韦格,崔·帕克
+					</li>
+					<li id="showtime">上映时间：2017-07-07</li>
+				</ol>
+			</li>
+			<li id="pingfen"><i id="pingfbig">8.</i><i id="pingfsmall">8</i></li>
+		</ul>
+	</div> 
+	<!--  num9 -->
+	<div id="hslist1">
+		<ul id="hslist1ul">
+			<li id="hslist3ul_li">
+				<i>9</i>
+		    </li>
+			<li>
+			   	<img src="__IMAGES__other/Billboard/hotshowing/gangrenboqi9.jpg">
+			</li>
+			<li id="showitli">
+				<ol id="showit">
+					<a href=""><li id="zla">冈仁波齐</li></a>
+					<li id="zlcator">主演：杨培,尼玛扎堆,斯朗卓嘎</li>
+					<li id="showtime">上映时间：2017-06-20</li>
+				</ol>
+			</li>
+			<li id="pingfen"><i id="pingfbig">8.</i><i id="pingfsmall">8</i></li>
+		</ul>
+	</div>
+	<!--   num10 -->
+	<div id="hslist1">
+		<ul id="hslist1ul">
+			<li id="hslist3ul_li">
+				<i>10</i>
+		    </li>
+			<li>
+			   	<img src="__IMAGES__other/Billboard/hotshowing/tutu10.jpg">
+			</li>
+			<li id="showitli">
+				<ol id="showit">
+					<a href=""><li id="zla">大耳朵图图之美食狂想曲</li></a>
+					<li id="zlcator">主演：豆豆,范楚绒,胡谦</li>
+					<li id="showtime">上映时间：2017-07-28</li>
+				</ol>
+			</li>
+			<li id="pingfen">
+			   	<i id="pingfbig">8.</i><i id="pingfsmall">7</i>
+			</li>
+		</ul>
+	</div>
+</div>
+</block>
+    
+
+
+		
